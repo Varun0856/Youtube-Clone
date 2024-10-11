@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ZooTube.com(YouTube.com clone)</title>
+        <!-- Adding a favicon -->
+         <link rel="icon" type="image/x-icon" href="./icons/favicon.ico">
+        <!-- Font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <!-- Linking to CSS -->
+        <link rel="stylesheet" href="./styles/general.css">
+        <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/video.css">
+        <link rel="stylesheet" href="./styles/sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <button class="hamburger-button"><img class="hamburger-menu" src="./icons/hamburger-menu.svg" alt=""></button>
+                <img class="youtube-logo" src="./icons/youtube-logo.svg" alt="">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="./icons/search.svg" alt="">
+                    <div class="tool-tip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="./icons/voice-search-icon.svg" alt="">
+                    <div class="tool-tip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="./icons/upload.svg" alt="">
+                    <div class="tool-tip">Create</div>
+                </div>
+                
+                <div class="apps-container">
+                    <img class="youtube-apps-icon" src="./icons/youtube-apps.svg" alt="">
+                    <div class="tool-tip">YouTube Apps</div>
+                </div>
+                
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="./icons/notifications.svg" alt="">
+                    <div class="notifications-count">9+</div>
+                    <div class="tool-tip">Notifications</div>      
+                </div>
+                <div class="current-user-icon">
+                    <p>V</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="./icons/home.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="./icons/subscriptions.svg" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="./icons/shorts.jpg" alt="">
+                <div>Shorts</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="./icons/library.svg" alt="">
+                <div>You</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="./icons/download.png" alt="">
+                <div>Downloads</div>
+            </div>
+        </nav>
+        
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/020g-0hhCAU?si=KIRArSnCD4CbW-qk">
+                            <img class="thumbnail" src="./thumbnails/BABY SHARK.jpg" alt="BABY SHARK">
+                        </a>
+                        <div class="video-time">
+                             2:25
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/channel/UCbCmjCuTUZos6Inko4u57UQ">
+                                <img class="channel-picture" src="./profile pic/cocmelon-profile.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/020g-0hhCAU?si=KIRArSnCD4CbW-qk">
+                                <p class="video-title">Baby Shark|@CoComelon Nursery Rhymes & Kids Songs</p>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCbCmjCuTUZos6Inko4u57UQ">
+                                <p class="video-author">Cocomelon-Nursey Rhymes</p>
+                            </a>
+                            <p class="video-stats">3.4B views &centerdot; 6 years ago</p>
+                        </div>
+                    </div>          
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/mP0RAo9SKZk?si=B71OBOVBT_y8m3Oo">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-2.webp" alt="">
+                        </a>
+                        <div class="video-time">
+                            8:22
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/@markiplier">
+                                <img src="./profile pic/channel-2.jpeg" alt="" class="channel-picture">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/mP0RAo9SKZk?si=B71OBOVBT_y8m3Oo">
+                                <p class="video-title">Try Not To Laugh Challenge #9</p>
+                            </a>
+                            <a href="https://www.youtube.com/@markiplier">
+                                <p class="video-author">Markiplier</p>
+                            </a>
+                            <p class="video-stats">21M views &centerdot; 6 years ago</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/FgjPQQeTh1w?si=VWa6V5J29aVNU5-b">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-3.webp" alt="">
+                        </a>    
+                        <div class="video-time">
+                            9:12
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/@SSSniperWolf">
+                                <img class="channel-picture" src="./profile pic/channel-3.jpeg" alt="">
+                            </a>
+                            
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/FgjPQQeTh1w?si=VWa6V5J29aVNU5-b">
+                                <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                            </a>
+                            <a href="https://www.youtube.com/@SSSniperWolf">
+                                <p class="video-author">SSSniperWolf</p>
+                            </a>
+                            <p class="video-stats">14M views &centerdot; 3 year ago</p>
+                        </div>
+                    </div>          
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/094y1Z2wpJg?si=a9Sg3FmgX5LFrdiX">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-4.webp" alt="">
+                        </a>
+                        <div class="video-time">
+                            22:09
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/@veritasium">
+                                <img src="./profile pic/channel-4.jpeg" alt="" class="channel-picture">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/094y1Z2wpJg?si=a9Sg3FmgX5LFrdiX">
+                                <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                            </a>
+                            <a href="https://www.youtube.com/@veritasium">
+                                <p class="video-author">Veritasium</p>
+                            </a>
+                            <p class="video-stats">40M views &centerdot; 2 years ago</p>
+                        </div>
+                    </div>
+                </div>
+          
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/86CQq3pKSUw?si=pVGKHzf5cWQN7U6a">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-5.webp" alt="">
+                        </a> 
+                        <div class="video-time">
+                            11:17
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/@CSDojo">
+                                <img class="channel-picture" src="./profile pic/channel-5.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/86CQq3pKSUw?si=pVGKHzf5cWQN7U6a">
+                                <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                            </a>
+                            <a href="https://www.youtube.com/@CSDojo">
+                                <p class="video-author">CS Dojo</p>
+                            </a>
+                            <p class="video-stats">697k views &centerdot; 8 years ago</p>
+                        </div>
+                    </div>          
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/fNVa1qMbF9Y?si=vCa7K--uG4ZAhT7G">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-7.webp" alt="">
+                        </a>
+                        <div class="video-time">
+                            10:14
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/@RealLifeLore">
+                                <img src="./profile pic/channel-7.jpeg" alt="" class="channel-picture">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/fNVa1qMbF9Y?si=vCa7K--uG4ZAhT7G">
+                                <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+                            </a>
+                            <a href="https://www.youtube.com/@RealLifeLore">
+                                <p class="video-author">RealLifeLore</p>
+                            </a>
+                            <p class="video-stats">8.4M views &centerdot; 3 year ago</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/ixmxOlcrlUc?si=nBQNwxs-sn1P0ieV">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-9.webp" alt="">
+                        </a>
+                        <div class="video-time">
+                            13:18
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/@OFFICIALTHENXSTUDIOS">
+                                <img class="channel-picture" src="./profile pic/channel-9.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/ixmxOlcrlUc?si=nBQNwxs-sn1P0ieV">
+                                <p class="video-title">The Secret to Super Human STRENGTH</p>
+                            </a>
+                            <a href="https://www.youtube.com/@OFFICIALTHENXSTUDIOS">
+                                <p class="video-author">ThenX</p>
+                            </a>
+                            <p class="video-stats">24M &centerdot; 6 years ago</p>
+                        </div>
+                    </div>          
+                </div>
+               
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/izGwDsrQ1eQ?si=Vp4z97LrK1n7mwUe">
+                            <img class="thumbnail" src="./thumbnails/careless-whisper.jpeg" alt="">
+                        </a>
+                        <div class="video-time">
+                            5:01
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/channel/UCR1LVH-teuA3-Kfy576TYSw">
+                               <img src="./profile pic/careless-whisper-profile.jpg" alt="" class="channel-picture"> 
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/izGwDsrQ1eQ?si=Vp4z97LrK1n7mwUe">
+                                <p class="video-title">George Michael-Careless Whisper</p>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCR1LVH-teuA3-Kfy576TYSw">
+                                <p class="video-author">georgemichael</p>
+                            </a>
+                            <p class="video-stats">1.2B views &centerdot; 14 years ago</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/tMsy2SGRpGs?si=CklCiq6RQVUQ7yMv">
+                            <img class="thumbnail" src="./thumbnails/cod-thumbail.webp" alt="">
+                        </a>
+                        
+                        <div class="video-time">
+                            16:43
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/@TapGameplay">
+                                <img class="channel-picture" src="./profile pic/tap-gameplay.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/tMsy2SGRpGs?si=CklCiq6RQVUQ7yMv">
+                                <p class="video-title">Call of Duty:Mobile-Gameplay Walkthrough Part 1-Tutorial(ios,Andriod)</p>
+                            </a>
+                            <a href="https://www.youtube.com/@TapGameplay">
+                                <p class="video-author">TapGameplay</p>
+                            </a>
+                            <p class="video-stats">9.3M views &centerdot; 4 years ago</p>
+                        </div>
+                    </div>          
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/XIJAZM5G5Fg?si=OgomiS4xYesnLf_O">
+                            <img class="thumbnail" src="./thumbnails/physics-wallah.webp" alt="">
+                        </a>
+                        <div class="video-time">
+                            45:05
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/@PhysicsWallah">
+                                <img src="./profile pic/physics-wallah-profile.jpg" alt="" class="channel-picture">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/XIJAZM5G5Fg?si=OgomiS4xYesnLf_O">
+                                <p class="video-title">Class 11 Physics Chapt 03:KINEMATICS:Motion in a Straight Line 01: Introduction||Average Speed</p>
+                            </a>
+                            <a href="https://www.youtube.com/@PhysicsWallah">
+                                <p class="video-author">Physics Wallah-Alakh Pandey</p>
+                            </a> 
+                            <p class="video-stats">14M views &centerdot; 6 years ago</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/djV11Xbc914?si=_mjnqNBgnq7TEUFi">
+                            <img class="thumbnail" src="./thumbnails/take-on-me.jpg" alt="">
+                        </a>
+                        <div class="video-time">
+                            4:04
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/channel/UCeEi1My3KTXHT0SG1JkR9gA">
+                                <img class="channel-picture" src="./profile pic/aha-image.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/djV11Xbc914?si=_mjnqNBgnq7TEUFi">
+                                <p class="video-title">a-ha-Take On Me(Official Video)[Remastered in 4K]</p>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCeEi1My3KTXHT0SG1JkR9gA">
+                                <p class="video-author">a-ha</p>
+                            </a>
+                            <p class="video-stats">1.9B views &centerdot; 14 years ago</p>
+                        </div>
+                    </div>          
+                </div>
+                
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/kJQP7kiw5Fk?si=5D6vigYGtLOdbRuz">
+                            <img class="thumbnail" src="./thumbnails/images.jpeg" alt="">
+                        </a>
+                        <div class="video-time">
+                            4:42
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-pic">
+                            <a href="https://www.youtube.com/channel/UCxoq-PAQeAdk_zyg8YS0JqA">
+                                <img src="./profile pic/despacito-profile.jpg" alt="" class="channel-picture">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/kJQP7kiw5Fk?si=5D6vigYGtLOdbRuz">
+                                <p class="video-title">Luis Fonsi-Despacito ft.Daddy Yankee</p>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCxoq-PAQeAdk_zyg8YS0JqA">
+                                <p class="video-author">Luis Fonsi</p>  
+                            </a>
+                            <p class="video-stats">8.4B views &centerdot; 7 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
